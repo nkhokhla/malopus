@@ -2268,6 +2268,10 @@
         "source": "/home/nazar/.gradle/caches/transforms-2/files-2.1/5d52d9573d8a8f70a8462cc8f8a42ce9/material-1.1.0/res/color/mtrl_btn_stroke_color_selector.xml"
     },
     {
+        "merged": "/home/nazar/AndroidStudioProjects/Malopus/app/build/intermediates/res/merged/debug/color_bottom_nav_color.xml.flat",
+        "source": "/home/nazar/AndroidStudioProjects/Malopus/app/src/main/res/color/bottom_nav_color.xml"
+    },
+    {
         "merged": "/home/nazar/AndroidStudioProjects/Malopus/app/build/intermediates/res/merged/debug/drawable_abc_seekbar_track_material.xml.flat",
         "source": "/home/nazar/.gradle/caches/transforms-2/files-2.1/6119d746697059b7e1b74aab4d181f56/appcompat-1.1.0/res/drawable/abc_seekbar_track_material.xml"
     },
