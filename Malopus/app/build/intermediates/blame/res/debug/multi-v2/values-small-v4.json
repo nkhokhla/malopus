@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\Samsung_Student_01\\AndroidStudioProjects\\malopus\\Malopus\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-small-v4\\values-small-v4.xml",
+            "outputFile": "/home/nazar/AndroidStudioProjects/Malopus/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-small-v4/values-small-v4.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Samsung_Student_01\\.gradle\\caches\\transforms-2\\files-2.1\\522d5cc41e0add1313b98aa46881f2c9\\material-1.1.0\\res\\values-small-v4\\values-small-v4.xml",
+                    "source": "/home/nazar/.gradle/caches/transforms-2/files-2.1/522d5cc41e0add1313b98aa46881f2c9/material-1.1.0/res/values-small-v4/values-small-v4.xml",
                     "from": {
                         "startLines": "2,3,4,5",
                         "startColumns": "4,4,4,4",

@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\Samsung_Student_01\\AndroidStudioProjects\\malopus\\Malopus\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-w480dp-port-v13\\values-w480dp-port-v13.xml",
+            "outputFile": "/home/nazar/AndroidStudioProjects/Malopus/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-w480dp-port-v13/values-w480dp-port-v13.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Samsung_Student_01\\.gradle\\caches\\transforms-2\\files-2.1\\522d5cc41e0add1313b98aa46881f2c9\\material-1.1.0\\res\\values-w480dp-port-v13\\values-w480dp-port-v13.xml",
+                    "source": "/home/nazar/.gradle/caches/transforms-2/files-2.1/522d5cc41e0add1313b98aa46881f2c9/material-1.1.0/res/values-w480dp-port-v13/values-w480dp-port-v13.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9",
                         "startColumns": "4,4,4,4,4,4,4,4",

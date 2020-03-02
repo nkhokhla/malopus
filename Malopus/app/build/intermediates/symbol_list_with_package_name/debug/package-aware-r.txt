@@ -1514,6 +1514,7 @@ id gone
 id group_divider
 id groups
 id guides
+id guides_layout
 id hideable
 id home
 id homeAsUp
@@ -1533,7 +1534,7 @@ id line1
 id line3
 id listMode
 id list_item
-id main_container
+id main_layout
 id masked
 id message
 id middle
@@ -1656,6 +1657,7 @@ id textEnd
 id textSpacerNoButtons
 id textSpacerNoTitle
 id textStart
+id textView
 id text_input_end_icon
 id text_input_start_icon
 id textinput_counter
@@ -1762,7 +1764,6 @@ layout design_text_input_end_icon
 layout design_text_input_start_icon
 layout guides_layout
 layout library_layout
-layout main_layout
 layout mtrl_alert_dialog
 layout mtrl_alert_dialog_actions
 layout mtrl_alert_dialog_title
