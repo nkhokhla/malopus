@@ -6,48 +6,48 @@
 6
 7    <uses-sdk
 8        android:minSdkVersion="27"
-8-->/home/nazar/AndroidStudioProjects/Malopus/app/src/main/AndroidManifest.xml
+8-->/home/nazar/AndroidStudioProjects/malopus/Malopus/app/src/main/AndroidManifest.xml
 9        android:targetSdkVersion="29" />
-9-->/home/nazar/AndroidStudioProjects/Malopus/app/src/main/AndroidManifest.xml
+9-->/home/nazar/AndroidStudioProjects/malopus/Malopus/app/src/main/AndroidManifest.xml
 10
 11    <application
-11-->/home/nazar/AndroidStudioProjects/Malopus/app/src/main/AndroidManifest.xml:5:5-24:19
+11-->/home/nazar/AndroidStudioProjects/malopus/Malopus/app/src/main/AndroidManifest.xml:5:5-24:19
 12        android:allowBackup="true"
-12-->/home/nazar/AndroidStudioProjects/Malopus/app/src/main/AndroidManifest.xml:6:9-35
+12-->/home/nazar/AndroidStudioProjects/malopus/Malopus/app/src/main/AndroidManifest.xml:6:9-35
 13        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-13-->[androidx.core:core:1.1.0] /home/nazar/.gradle/caches/transforms-2/files-2.1/65288fada49b0b6c64631011b3fa4627/core-1.1.0/AndroidManifest.xml:24:18-86
+13-->[androidx.core:core:1.1.0] /home/nazar/.gradle/caches/transforms-2/files-2.1/1cd7eff88f5e86d0249af2958bf465f0/core-1.1.0/AndroidManifest.xml:24:18-86
 14        android:debuggable="true"
 15        android:extractNativeLibs="false"
 16        android:icon="@mipmap/ic_launcher"
-16-->/home/nazar/AndroidStudioProjects/Malopus/app/src/main/AndroidManifest.xml:7:9-43
+16-->/home/nazar/AndroidStudioProjects/malopus/Malopus/app/src/main/AndroidManifest.xml:7:9-43
 17        android:label="@string/app_name"
-17-->/home/nazar/AndroidStudioProjects/Malopus/app/src/main/AndroidManifest.xml:8:9-41
+17-->/home/nazar/AndroidStudioProjects/malopus/Malopus/app/src/main/AndroidManifest.xml:8:9-41
 18        android:roundIcon="@mipmap/ic_launcher_round"
-18-->/home/nazar/AndroidStudioProjects/Malopus/app/src/main/AndroidManifest.xml:9:9-54
+18-->/home/nazar/AndroidStudioProjects/malopus/Malopus/app/src/main/AndroidManifest.xml:9:9-54
 19        android:supportsRtl="true"
-19-->/home/nazar/AndroidStudioProjects/Malopus/app/src/main/AndroidManifest.xml:10:9-35
+19-->/home/nazar/AndroidStudioProjects/malopus/Malopus/app/src/main/AndroidManifest.xml:10:9-35
 20        android:testOnly="true"
 21        android:theme="@style/AppTheme" >
-21-->/home/nazar/AndroidStudioProjects/Malopus/app/src/main/AndroidManifest.xml:11:9-40
+21-->/home/nazar/AndroidStudioProjects/malopus/Malopus/app/src/main/AndroidManifest.xml:11:9-40
 22        <meta-data
-22-->/home/nazar/AndroidStudioProjects/Malopus/app/src/main/AndroidManifest.xml:13:9-15:58
+22-->/home/nazar/AndroidStudioProjects/malopus/Malopus/app/src/main/AndroidManifest.xml:13:9-15:58
 23            android:name="com.google.android.actions"
-23-->/home/nazar/AndroidStudioProjects/Malopus/app/src/main/AndroidManifest.xml:14:13-54
+23-->/home/nazar/AndroidStudioProjects/malopus/Malopus/app/src/main/AndroidManifest.xml:14:13-54
 24            android:resource="@color/bottom_nav_color" />
-24-->/home/nazar/AndroidStudioProjects/Malopus/app/src/main/AndroidManifest.xml:15:13-55
+24-->/home/nazar/AndroidStudioProjects/malopus/Malopus/app/src/main/AndroidManifest.xml:15:13-55
 25
 26        <activity android:name="com.example.malopus.MainActivity" >
-26-->/home/nazar/AndroidStudioProjects/Malopus/app/src/main/AndroidManifest.xml:17:9-23:20
-26-->/home/nazar/AndroidStudioProjects/Malopus/app/src/main/AndroidManifest.xml:17:19-47
+26-->/home/nazar/AndroidStudioProjects/malopus/Malopus/app/src/main/AndroidManifest.xml:17:9-23:20
+26-->/home/nazar/AndroidStudioProjects/malopus/Malopus/app/src/main/AndroidManifest.xml:17:19-47
 27            <intent-filter>
-27-->/home/nazar/AndroidStudioProjects/Malopus/app/src/main/AndroidManifest.xml:18:13-22:29
+27-->/home/nazar/AndroidStudioProjects/malopus/Malopus/app/src/main/AndroidManifest.xml:18:13-22:29
 28                <action android:name="android.intent.action.MAIN" />
-28-->/home/nazar/AndroidStudioProjects/Malopus/app/src/main/AndroidManifest.xml:19:17-69
-28-->/home/nazar/AndroidStudioProjects/Malopus/app/src/main/AndroidManifest.xml:19:25-66
+28-->/home/nazar/AndroidStudioProjects/malopus/Malopus/app/src/main/AndroidManifest.xml:19:17-69
+28-->/home/nazar/AndroidStudioProjects/malopus/Malopus/app/src/main/AndroidManifest.xml:19:25-66
 29
 30                <category android:name="android.intent.category.LAUNCHER" />
-30-->/home/nazar/AndroidStudioProjects/Malopus/app/src/main/AndroidManifest.xml:21:17-77
-30-->/home/nazar/AndroidStudioProjects/Malopus/app/src/main/AndroidManifest.xml:21:27-74
+30-->/home/nazar/AndroidStudioProjects/malopus/Malopus/app/src/main/AndroidManifest.xml:21:17-77
+30-->/home/nazar/AndroidStudioProjects/malopus/Malopus/app/src/main/AndroidManifest.xml:21:27-74
 31            </intent-filter>
 32        </activity>
 33    </application>
