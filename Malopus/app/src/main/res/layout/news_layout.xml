@@ -6,5 +6,12 @@
     android:layout_height="match_parent"
     android:padding="1dp"
     android:id="@+id/news_layout">
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="46dp"
+        android:gravity="center"
+        android:textSize="25dp"
+        android:text="Головні новини3" />
 
 </LinearLayout>

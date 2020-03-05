@@ -10,46 +10,173 @@
 9        android:targetSdkVersion="29" />
 9-->/home/nazar/AndroidStudioProjects/malopus/Malopus/app/src/main/AndroidManifest.xml
 10
-11    <application
-11-->/home/nazar/AndroidStudioProjects/malopus/Malopus/app/src/main/AndroidManifest.xml:5:5-24:19
-12        android:allowBackup="true"
-12-->/home/nazar/AndroidStudioProjects/malopus/Malopus/app/src/main/AndroidManifest.xml:6:9-35
-13        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-13-->[androidx.core:core:1.1.0] /home/nazar/.gradle/caches/transforms-2/files-2.1/1cd7eff88f5e86d0249af2958bf465f0/core-1.1.0/AndroidManifest.xml:24:18-86
-14        android:debuggable="true"
-15        android:extractNativeLibs="false"
-16        android:icon="@mipmap/ic_launcher"
-16-->/home/nazar/AndroidStudioProjects/malopus/Malopus/app/src/main/AndroidManifest.xml:7:9-43
-17        android:label="@string/app_name"
-17-->/home/nazar/AndroidStudioProjects/malopus/Malopus/app/src/main/AndroidManifest.xml:8:9-41
-18        android:roundIcon="@mipmap/ic_launcher_round"
-18-->/home/nazar/AndroidStudioProjects/malopus/Malopus/app/src/main/AndroidManifest.xml:9:9-54
-19        android:supportsRtl="true"
-19-->/home/nazar/AndroidStudioProjects/malopus/Malopus/app/src/main/AndroidManifest.xml:10:9-35
-20        android:testOnly="true"
-21        android:theme="@style/AppTheme" >
-21-->/home/nazar/AndroidStudioProjects/malopus/Malopus/app/src/main/AndroidManifest.xml:11:9-40
-22        <meta-data
-22-->/home/nazar/AndroidStudioProjects/malopus/Malopus/app/src/main/AndroidManifest.xml:13:9-15:58
-23            android:name="com.google.android.actions"
-23-->/home/nazar/AndroidStudioProjects/malopus/Malopus/app/src/main/AndroidManifest.xml:14:13-54
-24            android:resource="@color/bottom_nav_color" />
-24-->/home/nazar/AndroidStudioProjects/malopus/Malopus/app/src/main/AndroidManifest.xml:15:13-55
-25
-26        <activity android:name="com.example.malopus.MainActivity" >
-26-->/home/nazar/AndroidStudioProjects/malopus/Malopus/app/src/main/AndroidManifest.xml:17:9-23:20
-26-->/home/nazar/AndroidStudioProjects/malopus/Malopus/app/src/main/AndroidManifest.xml:17:19-47
-27            <intent-filter>
-27-->/home/nazar/AndroidStudioProjects/malopus/Malopus/app/src/main/AndroidManifest.xml:18:13-22:29
-28                <action android:name="android.intent.action.MAIN" />
-28-->/home/nazar/AndroidStudioProjects/malopus/Malopus/app/src/main/AndroidManifest.xml:19:17-69
-28-->/home/nazar/AndroidStudioProjects/malopus/Malopus/app/src/main/AndroidManifest.xml:19:25-66
-29
-30                <category android:name="android.intent.category.LAUNCHER" />
-30-->/home/nazar/AndroidStudioProjects/malopus/Malopus/app/src/main/AndroidManifest.xml:21:17-77
-30-->/home/nazar/AndroidStudioProjects/malopus/Malopus/app/src/main/AndroidManifest.xml:21:27-74
-31            </intent-filter>
-32        </activity>
-33    </application>
-34
-35</manifest>
+11    <!-- Required permission for App measurement to run. -->
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->[com.google.android.gms:play-services-measurement:17.2.2] /home/nazar/.gradle/caches/transforms-2/files-2.1/10ddb5a7f44298deca40fafe6f4c087b/jetified-play-services-measurement-17.2.2/AndroidManifest.xml:23:5-67
+12-->[com.google.android.gms:play-services-measurement:17.2.2] /home/nazar/.gradle/caches/transforms-2/files-2.1/10ddb5a7f44298deca40fafe6f4c087b/jetified-play-services-measurement-17.2.2/AndroidManifest.xml:23:22-64
+13    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+13-->[com.google.android.gms:play-services-measurement:17.2.2] /home/nazar/.gradle/caches/transforms-2/files-2.1/10ddb5a7f44298deca40fafe6f4c087b/jetified-play-services-measurement-17.2.2/AndroidManifest.xml:24:5-79
+13-->[com.google.android.gms:play-services-measurement:17.2.2] /home/nazar/.gradle/caches/transforms-2/files-2.1/10ddb5a7f44298deca40fafe6f4c087b/jetified-play-services-measurement-17.2.2/AndroidManifest.xml:24:22-76
+14    <uses-permission android:name="android.permission.WAKE_LOCK" />
+14-->[com.google.android.gms:play-services-measurement:17.2.2] /home/nazar/.gradle/caches/transforms-2/files-2.1/10ddb5a7f44298deca40fafe6f4c087b/jetified-play-services-measurement-17.2.2/AndroidManifest.xml:25:5-68
+14-->[com.google.android.gms:play-services-measurement:17.2.2] /home/nazar/.gradle/caches/transforms-2/files-2.1/10ddb5a7f44298deca40fafe6f4c087b/jetified-play-services-measurement-17.2.2/AndroidManifest.xml:25:22-65
+15    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" /> <!-- Required by older versions of Google Play services to create IID tokens -->
+15-->[com.google.android.gms:play-services-measurement:17.2.2] /home/nazar/.gradle/caches/transforms-2/files-2.1/10ddb5a7f44298deca40fafe6f4c087b/jetified-play-services-measurement-17.2.2/AndroidManifest.xml:26:5-110
+15-->[com.google.android.gms:play-services-measurement:17.2.2] /home/nazar/.gradle/caches/transforms-2/files-2.1/10ddb5a7f44298deca40fafe6f4c087b/jetified-play-services-measurement-17.2.2/AndroidManifest.xml:26:22-107
+16    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+16-->[com.google.firebase:firebase-iid:20.0.2] /home/nazar/.gradle/caches/transforms-2/files-2.1/0dbca7ef2e7fe6dd6ad20b90edf9f9bc/jetified-firebase-iid-20.0.2/AndroidManifest.xml:26:5-82
+16-->[com.google.firebase:firebase-iid:20.0.2] /home/nazar/.gradle/caches/transforms-2/files-2.1/0dbca7ef2e7fe6dd6ad20b90edf9f9bc/jetified-firebase-iid-20.0.2/AndroidManifest.xml:26:22-79
+17
+18    <application
+18-->/home/nazar/AndroidStudioProjects/malopus/Malopus/app/src/main/AndroidManifest.xml:5:5-24:19
+19        android:allowBackup="true"
+19-->/home/nazar/AndroidStudioProjects/malopus/Malopus/app/src/main/AndroidManifest.xml:6:9-35
+20        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+20-->[androidx.core:core:1.1.0] /home/nazar/.gradle/caches/transforms-2/files-2.1/f961a727fd6ff1bec6d760c391cc6822/core-1.1.0/AndroidManifest.xml:24:18-86
+21        android:debuggable="true"
+22        android:extractNativeLibs="false"
+23        android:icon="@mipmap/ic_launcher"
+23-->/home/nazar/AndroidStudioProjects/malopus/Malopus/app/src/main/AndroidManifest.xml:7:9-43
+24        android:label="@string/app_name"
+24-->/home/nazar/AndroidStudioProjects/malopus/Malopus/app/src/main/AndroidManifest.xml:8:9-41
+25        android:roundIcon="@mipmap/ic_launcher_round"
+25-->/home/nazar/AndroidStudioProjects/malopus/Malopus/app/src/main/AndroidManifest.xml:9:9-54
+26        android:supportsRtl="true"
+26-->/home/nazar/AndroidStudioProjects/malopus/Malopus/app/src/main/AndroidManifest.xml:10:9-35
+27        android:testOnly="true"
+28        android:theme="@style/AppTheme" >
+28-->/home/nazar/AndroidStudioProjects/malopus/Malopus/app/src/main/AndroidManifest.xml:11:9-40
+29        <meta-data
+29-->/home/nazar/AndroidStudioProjects/malopus/Malopus/app/src/main/AndroidManifest.xml:13:9-15:58
+30            android:name="com.google.android.actions"
+30-->/home/nazar/AndroidStudioProjects/malopus/Malopus/app/src/main/AndroidManifest.xml:14:13-54
+31            android:resource="@color/bottom_nav_color" />
+31-->/home/nazar/AndroidStudioProjects/malopus/Malopus/app/src/main/AndroidManifest.xml:15:13-55
+32
+33        <activity android:name="com.example.malopus.MainActivity" >
+33-->/home/nazar/AndroidStudioProjects/malopus/Malopus/app/src/main/AndroidManifest.xml:17:9-23:20
+33-->/home/nazar/AndroidStudioProjects/malopus/Malopus/app/src/main/AndroidManifest.xml:17:19-47
+34            <intent-filter>
+34-->/home/nazar/AndroidStudioProjects/malopus/Malopus/app/src/main/AndroidManifest.xml:18:13-22:29
+35                <action android:name="android.intent.action.MAIN" />
+35-->/home/nazar/AndroidStudioProjects/malopus/Malopus/app/src/main/AndroidManifest.xml:19:17-69
+35-->/home/nazar/AndroidStudioProjects/malopus/Malopus/app/src/main/AndroidManifest.xml:19:25-66
+36
+37                <category android:name="android.intent.category.LAUNCHER" />
+37-->/home/nazar/AndroidStudioProjects/malopus/Malopus/app/src/main/AndroidManifest.xml:21:17-77
+37-->/home/nazar/AndroidStudioProjects/malopus/Malopus/app/src/main/AndroidManifest.xml:21:27-74
+38            </intent-filter>
+39        </activity>
+40
+41        <receiver
+41-->[com.google.android.gms:play-services-measurement:17.2.2] /home/nazar/.gradle/caches/transforms-2/files-2.1/10ddb5a7f44298deca40fafe6f4c087b/jetified-play-services-measurement-17.2.2/AndroidManifest.xml:29:9-33:20
+42            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+42-->[com.google.android.gms:play-services-measurement:17.2.2] /home/nazar/.gradle/caches/transforms-2/files-2.1/10ddb5a7f44298deca40fafe6f4c087b/jetified-play-services-measurement-17.2.2/AndroidManifest.xml:30:13-85
+43            android:enabled="true"
+43-->[com.google.android.gms:play-services-measurement:17.2.2] /home/nazar/.gradle/caches/transforms-2/files-2.1/10ddb5a7f44298deca40fafe6f4c087b/jetified-play-services-measurement-17.2.2/AndroidManifest.xml:31:13-35
+44            android:exported="false" >
+44-->[com.google.android.gms:play-services-measurement:17.2.2] /home/nazar/.gradle/caches/transforms-2/files-2.1/10ddb5a7f44298deca40fafe6f4c087b/jetified-play-services-measurement-17.2.2/AndroidManifest.xml:32:13-37
+45        </receiver>
+46        <receiver
+46-->[com.google.android.gms:play-services-measurement:17.2.2] /home/nazar/.gradle/caches/transforms-2/files-2.1/10ddb5a7f44298deca40fafe6f4c087b/jetified-play-services-measurement-17.2.2/AndroidManifest.xml:34:9-42:20
+47            android:name="com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver"
+47-->[com.google.android.gms:play-services-measurement:17.2.2] /home/nazar/.gradle/caches/transforms-2/files-2.1/10ddb5a7f44298deca40fafe6f4c087b/jetified-play-services-measurement-17.2.2/AndroidManifest.xml:35:13-100
+48            android:enabled="true"
+48-->[com.google.android.gms:play-services-measurement:17.2.2] /home/nazar/.gradle/caches/transforms-2/files-2.1/10ddb5a7f44298deca40fafe6f4c087b/jetified-play-services-measurement-17.2.2/AndroidManifest.xml:36:13-35
+49            android:exported="true"
+49-->[com.google.android.gms:play-services-measurement:17.2.2] /home/nazar/.gradle/caches/transforms-2/files-2.1/10ddb5a7f44298deca40fafe6f4c087b/jetified-play-services-measurement-17.2.2/AndroidManifest.xml:37:13-36
+50            android:permission="android.permission.INSTALL_PACKAGES" >
+50-->[com.google.android.gms:play-services-measurement:17.2.2] /home/nazar/.gradle/caches/transforms-2/files-2.1/10ddb5a7f44298deca40fafe6f4c087b/jetified-play-services-measurement-17.2.2/AndroidManifest.xml:38:13-69
+51            <intent-filter>
+51-->[com.google.android.gms:play-services-measurement:17.2.2] /home/nazar/.gradle/caches/transforms-2/files-2.1/10ddb5a7f44298deca40fafe6f4c087b/jetified-play-services-measurement-17.2.2/AndroidManifest.xml:39:13-41:29
+52                <action android:name="com.android.vending.INSTALL_REFERRER" />
+52-->[com.google.android.gms:play-services-measurement:17.2.2] /home/nazar/.gradle/caches/transforms-2/files-2.1/10ddb5a7f44298deca40fafe6f4c087b/jetified-play-services-measurement-17.2.2/AndroidManifest.xml:40:17-79
+52-->[com.google.android.gms:play-services-measurement:17.2.2] /home/nazar/.gradle/caches/transforms-2/files-2.1/10ddb5a7f44298deca40fafe6f4c087b/jetified-play-services-measurement-17.2.2/AndroidManifest.xml:40:25-76
+53            </intent-filter>
+54        </receiver>
+55
+56        <service
+56-->[com.google.android.gms:play-services-measurement:17.2.2] /home/nazar/.gradle/caches/transforms-2/files-2.1/10ddb5a7f44298deca40fafe6f4c087b/jetified-play-services-measurement-17.2.2/AndroidManifest.xml:44:9-47:40
+57            android:name="com.google.android.gms.measurement.AppMeasurementService"
+57-->[com.google.android.gms:play-services-measurement:17.2.2] /home/nazar/.gradle/caches/transforms-2/files-2.1/10ddb5a7f44298deca40fafe6f4c087b/jetified-play-services-measurement-17.2.2/AndroidManifest.xml:45:13-84
+58            android:enabled="true"
+58-->[com.google.android.gms:play-services-measurement:17.2.2] /home/nazar/.gradle/caches/transforms-2/files-2.1/10ddb5a7f44298deca40fafe6f4c087b/jetified-play-services-measurement-17.2.2/AndroidManifest.xml:46:13-35
+59            android:exported="false" />
+59-->[com.google.android.gms:play-services-measurement:17.2.2] /home/nazar/.gradle/caches/transforms-2/files-2.1/10ddb5a7f44298deca40fafe6f4c087b/jetified-play-services-measurement-17.2.2/AndroidManifest.xml:47:13-37
+60        <service
+60-->[com.google.android.gms:play-services-measurement:17.2.2] /home/nazar/.gradle/caches/transforms-2/files-2.1/10ddb5a7f44298deca40fafe6f4c087b/jetified-play-services-measurement-17.2.2/AndroidManifest.xml:48:9-52:72
+61            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+61-->[com.google.android.gms:play-services-measurement:17.2.2] /home/nazar/.gradle/caches/transforms-2/files-2.1/10ddb5a7f44298deca40fafe6f4c087b/jetified-play-services-measurement-17.2.2/AndroidManifest.xml:49:13-87
+62            android:enabled="true"
+62-->[com.google.android.gms:play-services-measurement:17.2.2] /home/nazar/.gradle/caches/transforms-2/files-2.1/10ddb5a7f44298deca40fafe6f4c087b/jetified-play-services-measurement-17.2.2/AndroidManifest.xml:50:13-35
+63            android:exported="false"
+63-->[com.google.android.gms:play-services-measurement:17.2.2] /home/nazar/.gradle/caches/transforms-2/files-2.1/10ddb5a7f44298deca40fafe6f4c087b/jetified-play-services-measurement-17.2.2/AndroidManifest.xml:51:13-37
+64            android:permission="android.permission.BIND_JOB_SERVICE" />
+64-->[com.google.android.gms:play-services-measurement:17.2.2] /home/nazar/.gradle/caches/transforms-2/files-2.1/10ddb5a7f44298deca40fafe6f4c087b/jetified-play-services-measurement-17.2.2/AndroidManifest.xml:52:13-69
+65        <service
+65-->[com.google.android.gms:play-services-measurement-api:17.2.2] /home/nazar/.gradle/caches/transforms-2/files-2.1/883fe3ee61da0b22067da7d7ee17f093/jetified-play-services-measurement-api-17.2.2/AndroidManifest.xml:27:9-33:19
+66            android:name="com.google.firebase.components.ComponentDiscoveryService"
+66-->[com.google.android.gms:play-services-measurement-api:17.2.2] /home/nazar/.gradle/caches/transforms-2/files-2.1/883fe3ee61da0b22067da7d7ee17f093/jetified-play-services-measurement-api-17.2.2/AndroidManifest.xml:28:13-84
+67            android:directBootAware="true"
+67-->[com.google.firebase:firebase-common:19.3.0] /home/nazar/.gradle/caches/transforms-2/files-2.1/1b23a58bb1c539c2a19df1b0920c32b5/jetified-firebase-common-19.3.0/AndroidManifest.xml:34:13-43
+68            android:exported="false" >
+68-->[com.google.android.gms:play-services-measurement-api:17.2.2] /home/nazar/.gradle/caches/transforms-2/files-2.1/883fe3ee61da0b22067da7d7ee17f093/jetified-play-services-measurement-api-17.2.2/AndroidManifest.xml:29:13-37
+69            <meta-data
+69-->[com.google.android.gms:play-services-measurement-api:17.2.2] /home/nazar/.gradle/caches/transforms-2/files-2.1/883fe3ee61da0b22067da7d7ee17f093/jetified-play-services-measurement-api-17.2.2/AndroidManifest.xml:30:13-32:85
+70                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+70-->[com.google.android.gms:play-services-measurement-api:17.2.2] /home/nazar/.gradle/caches/transforms-2/files-2.1/883fe3ee61da0b22067da7d7ee17f093/jetified-play-services-measurement-api-17.2.2/AndroidManifest.xml:31:17-139
+71                android:value="com.google.firebase.components.ComponentRegistrar" />
+71-->[com.google.android.gms:play-services-measurement-api:17.2.2] /home/nazar/.gradle/caches/transforms-2/files-2.1/883fe3ee61da0b22067da7d7ee17f093/jetified-play-services-measurement-api-17.2.2/AndroidManifest.xml:32:17-82
+72            <meta-data
+72-->[com.google.firebase:firebase-iid:20.0.2] /home/nazar/.gradle/caches/transforms-2/files-2.1/0dbca7ef2e7fe6dd6ad20b90edf9f9bc/jetified-firebase-iid-20.0.2/AndroidManifest.xml:32:13-34:85
+73                android:name="com.google.firebase.components:com.google.firebase.iid.Registrar"
+73-->[com.google.firebase:firebase-iid:20.0.2] /home/nazar/.gradle/caches/transforms-2/files-2.1/0dbca7ef2e7fe6dd6ad20b90edf9f9bc/jetified-firebase-iid-20.0.2/AndroidManifest.xml:33:17-96
+74                android:value="com.google.firebase.components.ComponentRegistrar" />
+74-->[com.google.firebase:firebase-iid:20.0.2] /home/nazar/.gradle/caches/transforms-2/files-2.1/0dbca7ef2e7fe6dd6ad20b90edf9f9bc/jetified-firebase-iid-20.0.2/AndroidManifest.xml:34:17-82
+75        </service>
+76
+77        <receiver
+77-->[com.google.firebase:firebase-iid:20.0.2] /home/nazar/.gradle/caches/transforms-2/files-2.1/0dbca7ef2e7fe6dd6ad20b90edf9f9bc/jetified-firebase-iid-20.0.2/AndroidManifest.xml:37:9-44:20
+78            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+78-->[com.google.firebase:firebase-iid:20.0.2] /home/nazar/.gradle/caches/transforms-2/files-2.1/0dbca7ef2e7fe6dd6ad20b90edf9f9bc/jetified-firebase-iid-20.0.2/AndroidManifest.xml:38:13-78
+79            android:exported="true"
+79-->[com.google.firebase:firebase-iid:20.0.2] /home/nazar/.gradle/caches/transforms-2/files-2.1/0dbca7ef2e7fe6dd6ad20b90edf9f9bc/jetified-firebase-iid-20.0.2/AndroidManifest.xml:39:13-36
+80            android:permission="com.google.android.c2dm.permission.SEND" >
+80-->[com.google.firebase:firebase-iid:20.0.2] /home/nazar/.gradle/caches/transforms-2/files-2.1/0dbca7ef2e7fe6dd6ad20b90edf9f9bc/jetified-firebase-iid-20.0.2/AndroidManifest.xml:40:13-73
+81            <intent-filter>
+81-->[com.google.firebase:firebase-iid:20.0.2] /home/nazar/.gradle/caches/transforms-2/files-2.1/0dbca7ef2e7fe6dd6ad20b90edf9f9bc/jetified-firebase-iid-20.0.2/AndroidManifest.xml:41:13-43:29
+82                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+82-->[com.google.firebase:firebase-iid:20.0.2] /home/nazar/.gradle/caches/transforms-2/files-2.1/0dbca7ef2e7fe6dd6ad20b90edf9f9bc/jetified-firebase-iid-20.0.2/AndroidManifest.xml:42:17-81
+82-->[com.google.firebase:firebase-iid:20.0.2] /home/nazar/.gradle/caches/transforms-2/files-2.1/0dbca7ef2e7fe6dd6ad20b90edf9f9bc/jetified-firebase-iid-20.0.2/AndroidManifest.xml:42:25-78
+83            </intent-filter>
+84        </receiver>
+85
+86        <provider
+86-->[com.google.firebase:firebase-common:19.3.0] /home/nazar/.gradle/caches/transforms-2/files-2.1/1b23a58bb1c539c2a19df1b0920c32b5/jetified-firebase-common-19.3.0/AndroidManifest.xml:26:9-30:39
+87            android:name="com.google.firebase.provider.FirebaseInitProvider"
+87-->[com.google.firebase:firebase-common:19.3.0] /home/nazar/.gradle/caches/transforms-2/files-2.1/1b23a58bb1c539c2a19df1b0920c32b5/jetified-firebase-common-19.3.0/AndroidManifest.xml:27:13-77
+88            android:authorities="com.example.malopus.firebaseinitprovider"
+88-->[com.google.firebase:firebase-common:19.3.0] /home/nazar/.gradle/caches/transforms-2/files-2.1/1b23a58bb1c539c2a19df1b0920c32b5/jetified-firebase-common-19.3.0/AndroidManifest.xml:28:13-72
+89            android:exported="false"
+89-->[com.google.firebase:firebase-common:19.3.0] /home/nazar/.gradle/caches/transforms-2/files-2.1/1b23a58bb1c539c2a19df1b0920c32b5/jetified-firebase-common-19.3.0/AndroidManifest.xml:29:13-37
+90            android:initOrder="100" />
+90-->[com.google.firebase:firebase-common:19.3.0] /home/nazar/.gradle/caches/transforms-2/files-2.1/1b23a58bb1c539c2a19df1b0920c32b5/jetified-firebase-common-19.3.0/AndroidManifest.xml:30:13-36
+91
+92        <activity
+92-->[com.google.android.gms:play-services-base:17.0.0] /home/nazar/.gradle/caches/transforms-2/files-2.1/38b6c4b545e39be84f8fef63d737cf6b/jetified-play-services-base-17.0.0/AndroidManifest.xml:23:9-26:75
+93            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+93-->[com.google.android.gms:play-services-base:17.0.0] /home/nazar/.gradle/caches/transforms-2/files-2.1/38b6c4b545e39be84f8fef63d737cf6b/jetified-play-services-base-17.0.0/AndroidManifest.xml:24:13-79
+94            android:exported="false"
+94-->[com.google.android.gms:play-services-base:17.0.0] /home/nazar/.gradle/caches/transforms-2/files-2.1/38b6c4b545e39be84f8fef63d737cf6b/jetified-play-services-base-17.0.0/AndroidManifest.xml:25:13-37
+95            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+95-->[com.google.android.gms:play-services-base:17.0.0] /home/nazar/.gradle/caches/transforms-2/files-2.1/38b6c4b545e39be84f8fef63d737cf6b/jetified-play-services-base-17.0.0/AndroidManifest.xml:26:13-72
+96
+97        <meta-data
+97-->[com.google.android.gms:play-services-basement:17.0.0] /home/nazar/.gradle/caches/transforms-2/files-2.1/f720b24cc490c109d50c0a0a1e6bf186/jetified-play-services-basement-17.0.0/AndroidManifest.xml:23:9-25:69
+98            android:name="com.google.android.gms.version"
+98-->[com.google.android.gms:play-services-basement:17.0.0] /home/nazar/.gradle/caches/transforms-2/files-2.1/f720b24cc490c109d50c0a0a1e6bf186/jetified-play-services-basement-17.0.0/AndroidManifest.xml:24:13-58
+99            android:value="@integer/google_play_services_version" />
+99-->[com.google.android.gms:play-services-basement:17.0.0] /home/nazar/.gradle/caches/transforms-2/files-2.1/f720b24cc490c109d50c0a0a1e6bf186/jetified-play-services-basement-17.0.0/AndroidManifest.xml:25:13-66
+100    </application>
+101
+102</manifest>
