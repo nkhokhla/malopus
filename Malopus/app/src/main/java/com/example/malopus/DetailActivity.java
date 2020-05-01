@@ -27,6 +27,12 @@ public class DetailActivity extends AppCompatActivity {
     ;
     TextView tx;
     MaterialButton button;
+    MaterialButton episode2;
+    MaterialButton episode3;
+    MaterialButton episode4;
+    MaterialButton episode5;
+    MaterialButton episode6;
+    LinearLayout episodes;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -36,6 +42,12 @@ public class DetailActivity extends AppCompatActivity {
                 1);
         mPlace = findViewById(R.id.imageView1);
         button = findViewById(R.id.shopButton);
+        episode2 = findViewById(R.id.shopButton2);
+        episode3 = findViewById(R.id.shopButton3);
+        episode4 = findViewById(R.id.shopButton4);
+        episode5 = findViewById(R.id.shopButton5);
+        episode6 = findViewById(R.id.shopButton6);
+        episodes = findViewById(R.id.episodeButtons);
         tx = findViewById(R.id.TX);
         String mBundle = getIntent().getStringExtra("Image");
         if (mBundle != null) {
@@ -92,6 +104,8 @@ public class DetailActivity extends AppCompatActivity {
         else if (type1.equals("free")){
             switch (a){
                 case 0:
+                    episodes.setVisibility(View.VISIBLE);
+                    button.setText(getString(R.string.episode1));
                     tx.setText("Це непереможний Галк проти безсмертного Росомахи у найбільшій сутичці, яку світ тільки бачив. Нік Ф'юрі - директор З.А.Х.И.С.Т' у думав, що убив альтер его Галка, науковця Брюса Беннера. Але зараз гора люті і зелених м'язів стрибає по всій земній кулі. Ф'юрі має великий список найманців в його розпорядженні. Але лише одна людина здатна зробити цю справу правильно: Росомаха!");
                     button.setOnClickListener(new View.OnClickListener() {
                         @Override
