@@ -9,19 +9,11 @@
         android:id="@+id/simpleSearchView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_toStartOf="@+id/account"
         android:iconifiedByDefault="false"
         android:queryHint="Search Here" />
 
 
-    <ImageView
-        android:id="@+id/account"
-        android:layout_width="47dp"
-        android:src="@drawable/account"
-        android:layout_alignParentEnd="true"
-        android:layout_height="48dp"
-        android:padding="7dp"
-        android:gravity="right"/>
+
 
 
     <FrameLayout

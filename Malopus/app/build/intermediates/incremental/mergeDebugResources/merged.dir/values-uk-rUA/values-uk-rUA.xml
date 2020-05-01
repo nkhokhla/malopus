@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="characters">Персонажі</string>
+    <string name="comics">Комікси</string>
+    <string name="connection_error">Connection error</string>
+    <string name="goTo"/>
+    <string name="pnews">Головні новини</string>
+    <string name="xml_error">XML Error</string>
+</resources>

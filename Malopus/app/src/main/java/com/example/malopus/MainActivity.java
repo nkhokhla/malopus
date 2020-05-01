@@ -2,6 +2,7 @@ package com.example.malopus;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.app.AppCompatDelegate;
 import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentManager;
 
@@ -14,6 +15,7 @@ import android.widget.ImageView;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 
 public class MainActivity extends AppCompatActivity {
+
     BottomNavigationView bottomNavigationView;
     final Fragment news_fragment = new NewsFragment();
     final Fragment library_fragment = new LibraryFragment();
@@ -26,6 +28,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_YES);
         bottomNavigationView = findViewById(R.id.navigation);
         fm.beginTransaction().replace(R.id.main_layout, main_fragment).commit();
         bottomNavigationView.getMenu().findItem(R.id.home).setChecked(true);

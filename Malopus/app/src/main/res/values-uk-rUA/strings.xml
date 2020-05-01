@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="pnews">Головні новини</string>
+    <string name="connection_error">Connection error</string>
+    <string name="xml_error">XML Error</string>
+    <string name="characters">Персонажі</string>
+    <string name="comics">Комікси</string>
+    <string name="goTo" />
+    <string name="paid">paid</string>
+    <string name="free">Free</string>
+    <string name="episode6">Episode 6</string>
+    <string name="episode5">Episode 5</string>
+    <string name="episode4">Episode 4</string>
+    <string name="episode2">Episode 2</string>
+    <string name="episode3">Episode 3</string>
+</resources>

@@ -4,12 +4,25 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:id="@+id/guides_layout">
-    <TextView
-        android:id="@+id/textView"
+    android:id="@+id/guides_layout"
+    android:orientation="vertical">
+
+
+    <com.google.android.material.tabs.TabLayout
         android:layout_width="match_parent"
-        android:layout_height="46dp"
-        android:gravity="center"
-        android:textSize="25dp"
-        android:text="Головні новини4" />
+        android:layout_height="wrap_content"
+        style="@style/Widget.MaterialComponents.TabLayout.Colored"
+        android:id="@+id/tabLayout"
+        android:background="@color/colorPrimary"
+        app:tabTextColor="#424242"
+        app:tabIconTint="@color/colorAccent"
+        android:textSize="14sp"
+        android:textColor="@color/mtrl_tabs_legacy_text_color_selector"
+        app:tabRippleColor="@color/colorAccent"
+        app:tabIndicatorColor="@color/colorAccent"/>
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/viewPager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
 </LinearLayout>

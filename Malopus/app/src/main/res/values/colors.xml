@@ -3,4 +3,5 @@
     <color name="colorPrimary">#121212</color>
     <color name="colorPrimaryDark">#121212</color>
     <color name="colorAccent">#6200EA</color>
+    <color name="chipColor">#9575CD</color>
 </resources>

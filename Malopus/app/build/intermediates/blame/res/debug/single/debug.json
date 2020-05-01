@@ -1,106 +1,150 @@
 [
     {
-        "merged": "/home/nazar/AndroidStudioProjects/malopus/Malopus/app/build/intermediates/res/merged/debug/mipmap-mdpi_ic_launcher.png.flat",
-        "source": "/home/nazar/AndroidStudioProjects/malopus/Malopus/app/src/main/res/mipmap-mdpi/ic_launcher.png"
+        "merged": "/Users/nikolajsekerzinskij/Desktop/Malopus/app/build/intermediates/res/merged/debug/mipmap-xhdpi_ic_launcher_foreground.png.flat",
+        "source": "/Users/nikolajsekerzinskij/Desktop/Malopus/app/src/main/res/mipmap-xhdpi/ic_launcher_foreground.png"
     },
     {
-        "merged": "/home/nazar/AndroidStudioProjects/malopus/Malopus/app/build/intermediates/res/merged/debug/layout_activity_main.xml.flat",
-        "source": "/home/nazar/AndroidStudioProjects/malopus/Malopus/app/src/main/res/layout/activity_main.xml"
+        "merged": "/Users/nikolajsekerzinskij/Desktop/Malopus/app/build/intermediates/res/merged/debug/layout_pager_item.xml.flat",
+        "source": "/Users/nikolajsekerzinskij/Desktop/Malopus/app/src/main/res/layout/pager_item.xml"
     },
     {
-        "merged": "/home/nazar/AndroidStudioProjects/malopus/Malopus/app/build/intermediates/res/merged/debug/menu_my_navigation_items.xml.flat",
-        "source": "/home/nazar/AndroidStudioProjects/malopus/Malopus/app/src/main/res/menu/my_navigation_items.xml"
+        "merged": "/Users/nikolajsekerzinskij/Desktop/Malopus/app/build/intermediates/res/merged/debug/layout_activity_main.xml.flat",
+        "source": "/Users/nikolajsekerzinskij/Desktop/Malopus/app/src/main/res/layout/activity_main.xml"
     },
     {
-        "merged": "/home/nazar/AndroidStudioProjects/malopus/Malopus/app/build/intermediates/res/merged/debug/layout_guides_layout.xml.flat",
-        "source": "/home/nazar/AndroidStudioProjects/malopus/Malopus/app/src/main/res/layout/guides_layout.xml"
+        "merged": "/Users/nikolajsekerzinskij/Desktop/Malopus/app/build/intermediates/res/merged/debug/menu_my_navigation_items.xml.flat",
+        "source": "/Users/nikolajsekerzinskij/Desktop/Malopus/app/src/main/res/menu/my_navigation_items.xml"
     },
     {
-        "merged": "/home/nazar/AndroidStudioProjects/malopus/Malopus/app/build/intermediates/res/merged/debug/mipmap-mdpi_ic_launcher_round.png.flat",
-        "source": "/home/nazar/AndroidStudioProjects/malopus/Malopus/app/src/main/res/mipmap-mdpi/ic_launcher_round.png"
+        "merged": "/Users/nikolajsekerzinskij/Desktop/Malopus/app/build/intermediates/res/merged/debug/color_bottom_nav_color.xml.flat",
+        "source": "/Users/nikolajsekerzinskij/Desktop/Malopus/app/src/main/res/color/bottom_nav_color.xml"
     },
     {
-        "merged": "/home/nazar/AndroidStudioProjects/malopus/Malopus/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi_ic_launcher.png.flat",
-        "source": "/home/nazar/AndroidStudioProjects/malopus/Malopus/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png"
+        "merged": "/Users/nikolajsekerzinskij/Desktop/Malopus/app/build/intermediates/res/merged/debug/layout_onlinelibrary_fragment.xml.flat",
+        "source": "/Users/nikolajsekerzinskij/Desktop/Malopus/app/src/main/res/layout/onlinelibrary_fragment.xml"
     },
     {
-        "merged": "/home/nazar/AndroidStudioProjects/malopus/Malopus/app/build/intermediates/res/merged/debug/drawable-v24_ic_launcher_foreground.xml.flat",
-        "source": "/home/nazar/AndroidStudioProjects/malopus/Malopus/app/src/main/res/drawable-v24/ic_launcher_foreground.xml"
+        "merged": "/Users/nikolajsekerzinskij/Desktop/Malopus/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi_ic_launcher_foreground.png.flat",
+        "source": "/Users/nikolajsekerzinskij/Desktop/Malopus/app/src/main/res/mipmap-xxxhdpi/ic_launcher_foreground.png"
     },
     {
-        "merged": "/home/nazar/AndroidStudioProjects/malopus/Malopus/app/build/intermediates/res/merged/debug/drawable_guides.xml.flat",
-        "source": "/home/nazar/AndroidStudioProjects/malopus/Malopus/app/src/main/res/drawable/guides.xml"
+        "merged": "/Users/nikolajsekerzinskij/Desktop/Malopus/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "/Users/nikolajsekerzinskij/Desktop/Malopus/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png"
     },
     {
-        "merged": "/home/nazar/AndroidStudioProjects/malopus/Malopus/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_ic_launcher.png.flat",
-        "source": "/home/nazar/AndroidStudioProjects/malopus/Malopus/app/src/main/res/mipmap-xxhdpi/ic_launcher.png"
+        "merged": "/Users/nikolajsekerzinskij/Desktop/Malopus/app/build/intermediates/res/merged/debug/drawable_ic_library_books_black_24dp.xml.flat",
+        "source": "/Users/nikolajsekerzinskij/Desktop/Malopus/app/src/main/res/drawable/ic_library_books_black_24dp.xml"
     },
     {
-        "merged": "/home/nazar/AndroidStudioProjects/malopus/Malopus/app/build/intermediates/res/merged/debug/layout_news_layout.xml.flat",
-        "source": "/home/nazar/AndroidStudioProjects/malopus/Malopus/app/src/main/res/layout/news_layout.xml"
+        "merged": "/Users/nikolajsekerzinskij/Desktop/Malopus/app/build/intermediates/res/merged/debug/mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "/Users/nikolajsekerzinskij/Desktop/Malopus/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png"
     },
     {
-        "merged": "/home/nazar/AndroidStudioProjects/malopus/Malopus/app/build/intermediates/res/merged/debug/mipmap-hdpi_ic_launcher.png.flat",
-        "source": "/home/nazar/AndroidStudioProjects/malopus/Malopus/app/src/main/res/mipmap-hdpi/ic_launcher.png"
+        "merged": "/Users/nikolajsekerzinskij/Desktop/Malopus/app/build/intermediates/res/merged/debug/mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "/Users/nikolajsekerzinskij/Desktop/Malopus/app/src/main/res/mipmap-mdpi/ic_launcher_round.png"
     },
     {
-        "merged": "/home/nazar/AndroidStudioProjects/malopus/Malopus/app/build/intermediates/res/merged/debug/mipmap-anydpi-v26_ic_launcher.xml.flat",
-        "source": "/home/nazar/AndroidStudioProjects/malopus/Malopus/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml"
+        "merged": "/Users/nikolajsekerzinskij/Desktop/Malopus/app/build/intermediates/res/merged/debug/layout_news_layout.xml.flat",
+        "source": "/Users/nikolajsekerzinskij/Desktop/Malopus/app/src/main/res/layout/news_layout.xml"
     },
     {
-        "merged": "/home/nazar/AndroidStudioProjects/malopus/Malopus/app/build/intermediates/res/merged/debug/mipmap-xhdpi_ic_launcher_round.png.flat",
-        "source": "/home/nazar/AndroidStudioProjects/malopus/Malopus/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png"
+        "merged": "/Users/nikolajsekerzinskij/Desktop/Malopus/app/build/intermediates/res/merged/debug/layout_guides_layout.xml.flat",
+        "source": "/Users/nikolajsekerzinskij/Desktop/Malopus/app/src/main/res/layout/guides_layout.xml"
     },
     {
-        "merged": "/home/nazar/AndroidStudioProjects/malopus/Malopus/app/build/intermediates/res/merged/debug/drawable_account.xml.flat",
-        "source": "/home/nazar/AndroidStudioProjects/malopus/Malopus/app/src/main/res/drawable/account.xml"
+        "merged": "/Users/nikolajsekerzinskij/Desktop/Malopus/app/build/intermediates/res/merged/debug/mipmap-hdpi_ic_launcher_foreground.png.flat",
+        "source": "/Users/nikolajsekerzinskij/Desktop/Malopus/app/src/main/res/mipmap-hdpi/ic_launcher_foreground.png"
     },
     {
-        "merged": "/home/nazar/AndroidStudioProjects/malopus/Malopus/app/build/intermediates/res/merged/debug/mipmap-hdpi_ic_launcher_round.png.flat",
-        "source": "/home/nazar/AndroidStudioProjects/malopus/Malopus/app/src/main/res/mipmap-hdpi/ic_launcher_round.png"
+        "merged": "/Users/nikolajsekerzinskij/Desktop/Malopus/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_ic_launcher_foreground.png.flat",
+        "source": "/Users/nikolajsekerzinskij/Desktop/Malopus/app/src/main/res/mipmap-xxhdpi/ic_launcher_foreground.png"
     },
     {
-        "merged": "/home/nazar/AndroidStudioProjects/malopus/Malopus/app/build/intermediates/res/merged/debug/layout_library_layout.xml.flat",
-        "source": "/home/nazar/AndroidStudioProjects/malopus/Malopus/app/src/main/res/layout/library_layout.xml"
+        "merged": "/Users/nikolajsekerzinskij/Desktop/Malopus/app/build/intermediates/res/merged/debug/drawable_news.xml.flat",
+        "source": "/Users/nikolajsekerzinskij/Desktop/Malopus/app/src/main/res/drawable/news.xml"
     },
     {
-        "merged": "/home/nazar/AndroidStudioProjects/malopus/Malopus/app/build/intermediates/res/merged/debug/drawable_home.xml.flat",
-        "source": "/home/nazar/AndroidStudioProjects/malopus/Malopus/app/src/main/res/drawable/home.xml"
+        "merged": "/Users/nikolajsekerzinskij/Desktop/Malopus/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "/Users/nikolajsekerzinskij/Desktop/Malopus/app/src/main/res/mipmap-xxhdpi/ic_launcher.png"
     },
     {
-        "merged": "/home/nazar/AndroidStudioProjects/malopus/Malopus/app/build/intermediates/res/merged/debug/drawable_news.xml.flat",
-        "source": "/home/nazar/AndroidStudioProjects/malopus/Malopus/app/src/main/res/drawable/news.xml"
+        "merged": "/Users/nikolajsekerzinskij/Desktop/Malopus/app/build/intermediates/res/merged/debug/layout_library_layout.xml.flat",
+        "source": "/Users/nikolajsekerzinskij/Desktop/Malopus/app/src/main/res/layout/library_layout.xml"
     },
     {
-        "merged": "/home/nazar/AndroidStudioProjects/malopus/Malopus/app/build/intermediates/res/merged/debug/drawable_ic_library_books_black_24dp.xml.flat",
-        "source": "/home/nazar/AndroidStudioProjects/malopus/Malopus/app/src/main/res/drawable/ic_library_books_black_24dp.xml"
+        "merged": "/Users/nikolajsekerzinskij/Desktop/Malopus/app/build/intermediates/res/merged/debug/mipmap-hdpi_ic_launcher.png.flat",
+        "source": "/Users/nikolajsekerzinskij/Desktop/Malopus/app/src/main/res/mipmap-hdpi/ic_launcher.png"
     },
     {
-        "merged": "/home/nazar/AndroidStudioProjects/malopus/Malopus/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_ic_launcher_round.png.flat",
-        "source": "/home/nazar/AndroidStudioProjects/malopus/Malopus/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png"
+        "merged": "/Users/nikolajsekerzinskij/Desktop/Malopus/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "/Users/nikolajsekerzinskij/Desktop/Malopus/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png"
     },
     {
-        "merged": "/home/nazar/AndroidStudioProjects/malopus/Malopus/app/build/intermediates/res/merged/debug/drawable_ic_launcher_background.xml.flat",
-        "source": "/home/nazar/AndroidStudioProjects/malopus/Malopus/app/src/main/res/drawable/ic_launcher_background.xml"
+        "merged": "/Users/nikolajsekerzinskij/Desktop/Malopus/app/build/intermediates/res/merged/debug/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "/Users/nikolajsekerzinskij/Desktop/Malopus/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml"
     },
     {
-        "merged": "/home/nazar/AndroidStudioProjects/malopus/Malopus/app/build/intermediates/res/merged/debug/layout_home_fragment.xml.flat",
-        "source": "/home/nazar/AndroidStudioProjects/malopus/Malopus/app/src/main/res/layout/home_fragment.xml"
+        "merged": "/Users/nikolajsekerzinskij/Desktop/Malopus/app/build/intermediates/res/merged/debug/mipmap-mdpi_ic_launcher.png.flat",
+        "source": "/Users/nikolajsekerzinskij/Desktop/Malopus/app/src/main/res/mipmap-mdpi/ic_launcher.png"
     },
     {
-        "merged": "/home/nazar/AndroidStudioProjects/malopus/Malopus/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi_ic_launcher_round.png.flat",
-        "source": "/home/nazar/AndroidStudioProjects/malopus/Malopus/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png"
+        "merged": "/Users/nikolajsekerzinskij/Desktop/Malopus/app/build/intermediates/res/merged/debug/drawable_home.xml.flat",
+        "source": "/Users/nikolajsekerzinskij/Desktop/Malopus/app/src/main/res/drawable/home.xml"
     },
     {
-        "merged": "/home/nazar/AndroidStudioProjects/malopus/Malopus/app/build/intermediates/res/merged/debug/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
-        "source": "/home/nazar/AndroidStudioProjects/malopus/Malopus/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml"
+        "merged": "/Users/nikolajsekerzinskij/Desktop/Malopus/app/build/intermediates/res/merged/debug/layout_home_fragment.xml.flat",
+        "source": "/Users/nikolajsekerzinskij/Desktop/Malopus/app/src/main/res/layout/home_fragment.xml"
     },
     {
-        "merged": "/home/nazar/AndroidStudioProjects/malopus/Malopus/app/build/intermediates/res/merged/debug/color_bottom_nav_color.xml.flat",
-        "source": "/home/nazar/AndroidStudioProjects/malopus/Malopus/app/src/main/res/color/bottom_nav_color.xml"
+        "merged": "/Users/nikolajsekerzinskij/Desktop/Malopus/app/build/intermediates/res/merged/debug/mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "/Users/nikolajsekerzinskij/Desktop/Malopus/app/src/main/res/mipmap-hdpi/ic_launcher_round.png"
     },
     {
-        "merged": "/home/nazar/AndroidStudioProjects/malopus/Malopus/app/build/intermediates/res/merged/debug/mipmap-xhdpi_ic_launcher.png.flat",
-        "source": "/home/nazar/AndroidStudioProjects/malopus/Malopus/app/src/main/res/mipmap-xhdpi/ic_launcher.png"
+        "merged": "/Users/nikolajsekerzinskij/Desktop/Malopus/app/build/intermediates/res/merged/debug/mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "/Users/nikolajsekerzinskij/Desktop/Malopus/app/src/main/res/mipmap-xhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/nikolajsekerzinskij/Desktop/Malopus/app/build/intermediates/res/merged/debug/layout_activity_detail.xml.flat",
+        "source": "/Users/nikolajsekerzinskij/Desktop/Malopus/app/src/main/res/layout/activity_detail.xml"
+    },
+    {
+        "merged": "/Users/nikolajsekerzinskij/Desktop/Malopus/app/build/intermediates/res/merged/debug/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "/Users/nikolajsekerzinskij/Desktop/Malopus/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "/Users/nikolajsekerzinskij/Desktop/Malopus/app/build/intermediates/res/merged/debug/layout_guides_fragment_marvel.xml.flat",
+        "source": "/Users/nikolajsekerzinskij/Desktop/Malopus/app/src/main/res/layout/guides_fragment_marvel.xml"
+    },
+    {
+        "merged": "/Users/nikolajsekerzinskij/Desktop/Malopus/app/build/intermediates/res/merged/debug/layout_recyclerview_custom_layout.xml.flat",
+        "source": "/Users/nikolajsekerzinskij/Desktop/Malopus/app/src/main/res/layout/recyclerview_custom_layout.xml"
+    },
+    {
+        "merged": "/Users/nikolajsekerzinskij/Desktop/Malopus/app/build/intermediates/res/merged/debug/layout_guides_fragment_dc.xml.flat",
+        "source": "/Users/nikolajsekerzinskij/Desktop/Malopus/app/src/main/res/layout/guides_fragment_dc.xml"
+    },
+    {
+        "merged": "/Users/nikolajsekerzinskij/Desktop/Malopus/app/build/intermediates/res/merged/debug/drawable_account.xml.flat",
+        "source": "/Users/nikolajsekerzinskij/Desktop/Malopus/app/src/main/res/drawable/account.xml"
+    },
+    {
+        "merged": "/Users/nikolajsekerzinskij/Desktop/Malopus/app/build/intermediates/res/merged/debug/mipmap-mdpi_ic_launcher_foreground.png.flat",
+        "source": "/Users/nikolajsekerzinskij/Desktop/Malopus/app/src/main/res/mipmap-mdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "/Users/nikolajsekerzinskij/Desktop/Malopus/app/build/intermediates/res/merged/debug/drawable_guides.xml.flat",
+        "source": "/Users/nikolajsekerzinskij/Desktop/Malopus/app/src/main/res/drawable/guides.xml"
+    },
+    {
+        "merged": "/Users/nikolajsekerzinskij/Desktop/Malopus/app/build/intermediates/res/merged/debug/layout_shops_fragment.xml.flat",
+        "source": "/Users/nikolajsekerzinskij/Desktop/Malopus/app/src/main/res/layout/shops_fragment.xml"
+    },
+    {
+        "merged": "/Users/nikolajsekerzinskij/Desktop/Malopus/app/build/intermediates/res/merged/debug/layout_article_row.xml.flat",
+        "source": "/Users/nikolajsekerzinskij/Desktop/Malopus/app/src/main/res/layout/article_row.xml"
+    },
+    {
+        "merged": "/Users/nikolajsekerzinskij/Desktop/Malopus/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "/Users/nikolajsekerzinskij/Desktop/Malopus/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png"
     }
 ]

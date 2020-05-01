@@ -1,3 +1,21 @@
 <resources>
-    <string name="app_name">Malopus</string>
+    <string name="app_name" translatable="false">Malopus</string>
+    <string name="pnews">Popular news</string>
+    <string name="characters">Characters</string>
+    <string name="connection_error">Connection error</string>
+    <string name="xml_error">XML Error</string>
+    <string name="comics">Comics</string>
+    <string name="batman" translatable="false">Batman</string>
+    <string name="superman" translatable="false">Superman</string>
+    <string name="online">Online</string>
+    <string name="shops">From shops</string>
+    <string name="goTo">Go to shop</string>
+    <string name="paid">Paid</string>
+    <string name="free">Free</string>
+    <string name="episode6">Episode 6</string>
+    <string name="episode5">Episode 5</string>
+    <string name="episode4">Episode 4</string>
+    <string name="episode2">Episode 2</string>
+    <string name="episode3">Episode 3</string>
+    <string name="episode1">Episode 1</string>
 </resources>
