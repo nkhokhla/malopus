@@ -5,12 +5,16 @@
     <string name="xml_error">XML Error</string>
     <string name="characters">Персонажі</string>
     <string name="comics">Комікси</string>
-    <string name="goTo" />
-    <string name="paid">paid</string>
-    <string name="free">Free</string>
-    <string name="episode6">Episode 6</string>
-    <string name="episode5">Episode 5</string>
-    <string name="episode4">Episode 4</string>
-    <string name="episode2">Episode 2</string>
-    <string name="episode3">Episode 3</string>
+    <string name="goTo" >У магазин</string>
+    <string name="paid">Платні</string>
+    <string name="free">Безкоштовні</string>
+    <string name="episode6">Епізод 6</string>
+    <string name="episode5">Епізод</string>
+    <string name="episode4">Епізод 4</string>
+    <string name="episode2">Епізод 2</string>
+    <string name="episode3">Епізод 3</string>
+    <string name="online">Онлайн</string>
+    <string name="shops">З магазинів</string>
+    <string name="episode1">Епізод 1</string>
+    <string name="readerText">Файли з розширенням .cbz з\'являться тут</string>
 </resources>

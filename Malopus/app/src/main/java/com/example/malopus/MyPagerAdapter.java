@@ -1,6 +1,7 @@
 package com.example.malopus;
 
 import android.content.Context;
+import android.content.Intent;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -17,12 +18,13 @@ import java.util.Collections;
 
 public class MyPagerAdapter extends PagerAdapter  {
     ArrayList<Integer> arrlist = new ArrayList<Integer>();
-    ArrayList<String> types1 = new ArrayList<String>();;
+    String[] links;
 
     private Context context;
-    public MyPagerAdapter(Context context) {
+    public MyPagerAdapter(Context context, ArrayList<Integer> arrlist, String[] links) {
         this.context = context;
-
+        this.arrlist = arrlist;
+        this.links = links;
     }
     /*
     This callback is responsible for creating a page. We inflate the layout and set the drawable
@@ -32,29 +34,25 @@ public class MyPagerAdapter extends PagerAdapter  {
     */
     @Override
     public Object instantiateItem(ViewGroup container, int position) {
-        TinyDB tinydb = new TinyDB(context);
-        arrlist = tinydb.getListInt("MyUsers");
-        types1 = tinydb.getListString("Types");
-        Collections.reverse(arrlist);
         View view = LayoutInflater.from(context).inflate(R.layout.pager_item, null);
         ImageView imageView = view.findViewById(R.id.image);
         LinearLayout gallery = (LinearLayout) view.findViewById(R.id.gallery);
-        MyApplication myAppClass =(MyApplication) context;
-        if (types1.get(position).equals("online")){
+
         Picasso.get()
-                .load(myAppClass.getOnlineLink(arrlist.get(position)))
+                .load(links[arrlist.get(position)])
                 .fit()
                 .centerInside()
                 .into(imageView);
-        } else if (types1.get(position).equals("shops")){
-            Picasso.get()
-                    .load(myAppClass.getShopLink(arrlist.get(position)))
-                    .fit()
-                    .centerInside()
-                    .into(imageView);
-        } else{
-            gallery.setVisibility(View.GONE);
-        }
+        imageView.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent mIntent = new Intent(context, DetailActivity.class);
+                mIntent.putExtra("Image", links[arrlist.get(position)]);
+                mIntent.putExtra("Type", "free");
+                mIntent.putExtra("Position", arrlist.get(position));
+                context.startActivity(mIntent);
+            }
+        });
         container.addView(view);
         return view;
     }

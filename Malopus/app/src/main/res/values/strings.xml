@@ -18,4 +18,5 @@
     <string name="episode2">Episode 2</string>
     <string name="episode3">Episode 3</string>
     <string name="episode1">Episode 1</string>
+    <string name="readerText">".cbz files will appear here "</string>
 </resources>

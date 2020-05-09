@@ -19,6 +19,7 @@ import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
+import java.util.Locale;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
@@ -179,7 +180,7 @@ public class XmlParser {
     private Date readDate(XmlPullParser parser) throws IOException, XmlPullParserException, ParseException {
         parser.require(XmlPullParser.START_TAG, ns, "pubDate");
         String pubDate = readText(parser);
-        DateFormat formatter = new SimpleDateFormat("EEE, d MMM yyyy HH:mm:ss z");
+        DateFormat formatter = new SimpleDateFormat("EEE, d MMM yyyy HH:mm:ss z", Locale.ENGLISH);
         Date date = formatter.parse(pubDate);
         parser.require(XmlPullParser.END_TAG, ns, "pubDate");
         return date;

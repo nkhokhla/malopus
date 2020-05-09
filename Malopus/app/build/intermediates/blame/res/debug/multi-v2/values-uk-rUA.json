@@ -1,23 +1,23 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/nikolajsekerzinskij/Desktop/Malopus/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-uk-rUA/values-uk-rUA.xml",
+            "outputFile": "/home/nazar/AndroidStudioProjects/malopus/Malopus/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-uk-rUA/values-uk-rUA.xml",
             "map": [
                 {
-                    "source": "/Users/nikolajsekerzinskij/Desktop/Malopus/app/src/main/res/values-uk-rUA/strings.xml",
+                    "source": "/home/nazar/AndroidStudioProjects/malopus/Malopus/app/src/main/res/values-uk-rUA/strings.xml",
                     "from": {
-                        "startLines": "5,6,3,7,2,4",
-                        "startColumns": "4,4,4,4,4,4",
-                        "startOffsets": "214,263,104,306,55,166",
-                        "endColumns": "48,42,61,26,48,47",
-                        "endOffsets": "258,301,161,328,99,209"
+                        "startLines": "-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,18,-1,-1",
+                        "startColumns": "-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,4,-1,-1",
+                        "startOffsets": "-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,797,-1,-1",
+                        "endColumns": "-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,79,-1,-1",
+                        "endOffsets": "-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,872,-1,-1"
                     },
                     "to": {
-                        "startLines": "2,3,4,5,6,7",
-                        "startColumns": "4,4,4,4,4,4",
-                        "startOffsets": "55,104,147,209,235,284",
-                        "endColumns": "48,42,61,25,48,47",
-                        "endOffsets": "99,142,204,230,279,327"
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,104,147,209,255,301,347,393,437,483,528,571,613,653,702,782,828",
+                        "endColumns": "48,42,61,45,45,45,45,43,45,44,42,41,39,48,79,45,47",
+                        "endOffsets": "99,142,204,250,296,342,388,432,478,523,566,608,648,697,777,823,871"
                     }
                 }
             ]

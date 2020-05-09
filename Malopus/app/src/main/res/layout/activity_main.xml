@@ -5,19 +5,13 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:orientation="vertical">
 
-    <SearchView
-        android:id="@+id/simpleSearchView"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:iconifiedByDefault="false"
-        android:queryHint="Search Here" />
+
 
 
 
 
 
     <FrameLayout
-        android:layout_below="@+id/simpleSearchView"
         android:layout_above="@id/navigation"
         android:layout_width="match_parent"
         android:layout_height="match_parent"

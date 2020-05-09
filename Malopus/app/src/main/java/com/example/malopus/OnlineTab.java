@@ -17,8 +17,10 @@ public class OnlineTab extends Fragment {
 //    String[] mPlaceList;
     ImageAdapter adapter;
     Chip paidChip;
+    ImageAdapter imageAdapter;
     Chip freeChip;
     String type = "paid";
+    String[] myValues;
     public View onCreateView (LayoutInflater inflater, ViewGroup container, Bundle
             savedInstanceState){
         return inflater.inflate(R.layout.onlinelibrary_fragment, container, false);
@@ -35,6 +37,13 @@ public class OnlineTab extends Fragment {
                 paidChip.setChecked(true);
                 freeChip.setChecked(false);
                 type = "paid";
+                MyApplication myAppClass = ((MyApplication)getActivity().getApplicationContext());
+                myValues = myAppClass.getOnlineLinks(type);
+                GridLayoutManager mGridLayoutManager = new GridLayoutManager(getContext(), 3, GridLayoutManager.VERTICAL, false);
+                mRecyclerView.setLayoutManager(mGridLayoutManager);
+//        mPlaceList = new String[]{"https://www.onthebus.com.ua/wa-data/public/shop/products/04/webp/76/78/7876/images/37938/37938.0x450@2x.webp", "http://bookri.com.ua/wp-content/uploads/2019/11/sarkofah-cover.jpg","http://bookri.com.ua/wp-content/uploads/2019/11/sarkofah-cover.jpg", "http://bookri.com.ua/wp-content/uploads/2019/11/sarkofah-cover.jpg", "http://bookri.com.ua/wp-content/uploads/2019/11/sarkofah-cover.jpg", "http://bookri.com.ua/wp-content/uploads/2019/11/sarkofah-cover.jpg","http://bookri.com.ua/wp-content/uploads/2019/11/sarkofah-cover.jpg", "http://bookri.com.ua/wp-content/uploads/2019/11/sarkofah-cover.jpg", "http://bookri.com.ua/wp-content/uploads/2019/11/sarkofah-cover.jpg", "http://bookri.com.ua/wp-content/uploads/2019/11/sarkofah-cover.jpg","http://bookri.com.ua/wp-content/uploads/2019/11/sarkofah-cover.jpg", "http://bookri.com.ua/wp-content/uploads/2019/11/sarkofah-cover.jpg"};
+                imageAdapter = new ImageAdapter(getContext(), myAppClass.getOnlineLinks(type), type);
+                mRecyclerView.setAdapter(imageAdapter);
             }
         });
         freeChip.setOnClickListener(new View.OnClickListener() {
@@ -43,13 +52,21 @@ public class OnlineTab extends Fragment {
                 paidChip.setChecked(false);
                 freeChip.setChecked(true);
                 type = "free";
+                MyApplication myAppClass = ((MyApplication)getActivity().getApplicationContext());
+                myValues = myAppClass.getOnlineLinks(type);
+                GridLayoutManager mGridLayoutManager = new GridLayoutManager(getContext(), 3, GridLayoutManager.VERTICAL, false);
+                mRecyclerView.setLayoutManager(mGridLayoutManager);
+//        mPlaceList = new String[]{"https://www.onthebus.com.ua/wa-data/public/shop/products/04/webp/76/78/7876/images/37938/37938.0x450@2x.webp", "http://bookri.com.ua/wp-content/uploads/2019/11/sarkofah-cover.jpg","http://bookri.com.ua/wp-content/uploads/2019/11/sarkofah-cover.jpg", "http://bookri.com.ua/wp-content/uploads/2019/11/sarkofah-cover.jpg", "http://bookri.com.ua/wp-content/uploads/2019/11/sarkofah-cover.jpg", "http://bookri.com.ua/wp-content/uploads/2019/11/sarkofah-cover.jpg","http://bookri.com.ua/wp-content/uploads/2019/11/sarkofah-cover.jpg", "http://bookri.com.ua/wp-content/uploads/2019/11/sarkofah-cover.jpg", "http://bookri.com.ua/wp-content/uploads/2019/11/sarkofah-cover.jpg", "http://bookri.com.ua/wp-content/uploads/2019/11/sarkofah-cover.jpg","http://bookri.com.ua/wp-content/uploads/2019/11/sarkofah-cover.jpg", "http://bookri.com.ua/wp-content/uploads/2019/11/sarkofah-cover.jpg"};
+                imageAdapter = new ImageAdapter(getContext(), myAppClass.getOnlineLinks(type), type);
+                mRecyclerView.setAdapter(imageAdapter);
             }
         });
+        MyApplication myAppClass = ((MyApplication)getActivity().getApplicationContext());
+        myValues = myAppClass.getOnlineLinks(type);
         GridLayoutManager mGridLayoutManager = new GridLayoutManager(getContext(), 3, GridLayoutManager.VERTICAL, false);
         mRecyclerView.setLayoutManager(mGridLayoutManager);
-        MyApplication myAppClass = ((MyApplication)getActivity().getApplicationContext());
 //        mPlaceList = new String[]{"https://www.onthebus.com.ua/wa-data/public/shop/products/04/webp/76/78/7876/images/37938/37938.0x450@2x.webp", "http://bookri.com.ua/wp-content/uploads/2019/11/sarkofah-cover.jpg","http://bookri.com.ua/wp-content/uploads/2019/11/sarkofah-cover.jpg", "http://bookri.com.ua/wp-content/uploads/2019/11/sarkofah-cover.jpg", "http://bookri.com.ua/wp-content/uploads/2019/11/sarkofah-cover.jpg", "http://bookri.com.ua/wp-content/uploads/2019/11/sarkofah-cover.jpg","http://bookri.com.ua/wp-content/uploads/2019/11/sarkofah-cover.jpg", "http://bookri.com.ua/wp-content/uploads/2019/11/sarkofah-cover.jpg", "http://bookri.com.ua/wp-content/uploads/2019/11/sarkofah-cover.jpg", "http://bookri.com.ua/wp-content/uploads/2019/11/sarkofah-cover.jpg","http://bookri.com.ua/wp-content/uploads/2019/11/sarkofah-cover.jpg", "http://bookri.com.ua/wp-content/uploads/2019/11/sarkofah-cover.jpg"};
-        ImageAdapter imageAdapter = new ImageAdapter(getContext(), myAppClass.getOnlineLinks(type), type);
+         imageAdapter = new ImageAdapter(getContext(), myAppClass.getOnlineLinks(type), type);
         mRecyclerView.setAdapter(imageAdapter);
     }
 }

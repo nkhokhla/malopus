@@ -24,20 +24,13 @@ import java.io.InputStream;
 import java.net.HttpURLConnection;
 import java.net.URL;
 import java.text.ParseException;
-import java.util.ArrayList;
-import java.util.Collections;
 import java.util.List;
 
 public class NewsFragment extends Fragment {
     public static final String WIFI = "Wi-Fi";
     public static final String ANY = "Any";
     private static String urlString = "https://uageek.space/feed/";
-    private static String urlStringTg = "https://rsshub.app/telegram/channel/leftthemusicout/";
     private ProgressBar progressBar;
-    DownloadXmlTask downloadXmlTask;
-    DownloadXmlTask downloadXmlTask1;
-    ListView listView;
-    List<Item> toReturn;
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
@@ -45,13 +38,9 @@ public class NewsFragment extends Fragment {
 //        Intent intent = new Intent(getActivity(), NetworkActivity.class);
 //        startActivity(intent);
         progressBar =view.findViewById(R.id.progressBar);
-        listView = view.findViewById(R.id.listView);
         progressBar.setVisibility(View.VISIBLE);
-        toReturn = new ArrayList<Item>();
-        downloadXmlTask = new DownloadXmlTask();
-        downloadXmlTask1 = new DownloadXmlTask();
-        downloadXmlTask.execute();
-        downloadXmlTask1.execute();
+        DownloadXmlTask downloadXmlTask = new DownloadXmlTask();
+        downloadXmlTask.execute(urlString);
         // ATTENTION: This was auto-generated to implement the App Indexing API.
         // See https://g.co/AppIndexing/AndroidStudio for more information.
 //        client = new GoogleApiClient.Builder(this).addApi(AppIndex.API).build();
@@ -108,12 +97,6 @@ public class NewsFragment extends Fragment {
 //    }
 
     private class DownloadXmlTask extends AsyncTask<String, Void, String> {
-//        public DownloadXmlTask(List<Item> newList) {
-//            toReturn.addAll(entries);
-//            toReturn.addAll(newList);
-//        }
-
-
         @Override
         protected String doInBackground(String... urls) {
             try {
@@ -122,8 +105,6 @@ public class NewsFragment extends Fragment {
                 return getResources().getString(R.string.connection_error);
             } catch (XmlPullParserException e) {
                 return getResources().getString(R.string.xml_error);
-            } catch (ParseException e){
-                return "parse exeption";
             }
         }
 
@@ -133,8 +114,8 @@ public class NewsFragment extends Fragment {
 
             if(entries == null)
                 return;
-            Collections.sort(toReturn, new CustomComparator());
-            NewsAdapter newsAdapter = new NewsAdapter(getActivity(), toReturn);
+            ListView listView = getView().findViewById(R.id.listView);
+            NewsAdapter newsAdapter = new NewsAdapter(getActivity(), entries);
             listView.setAdapter(newsAdapter);
             listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
                 @Override
@@ -142,7 +123,7 @@ public class NewsFragment extends Fragment {
 //                    Intent intent = new Intent(NetworkActivity.this,ArticleActivity.class);
 //                    intent.putExtra("link",entries.get(position).link);
 //                    startActivity(intent);
-                    Uri address = Uri.parse(toReturn.get(position).link);
+                    Uri address = Uri.parse(entries.get(position).link);
                     Intent openlinkIntent = new Intent(Intent.ACTION_VIEW, address);
                     startActivity(openlinkIntent);
                 }
@@ -151,16 +132,14 @@ public class NewsFragment extends Fragment {
 
         }
 
-        List<Item> entries= new ArrayList<Item>();
+        List<Item> entries;
 
         // Uploads XML from kolhazman.co.il/feed, parses it, and combines it with
         // HTML markup. Returns HTML string.
-        private String loadXmlFromNetwork(String urlString) throws XmlPullParserException, IOException, ParseException {
+        private String loadXmlFromNetwork(String urlString) throws XmlPullParserException, IOException {
             InputStream stream = null;
-            InputStream streamTwo = null;
             // Instantiate the parser
             XmlParser xmlParser = new XmlParser();
-            GuidesXmlParser secondParser = new GuidesXmlParser();
             if(xmlParser != null) Log.d("parser", "new parser");
 
             // what is a StringBuilder and why do I have to return it?
@@ -168,19 +147,19 @@ public class NewsFragment extends Fragment {
 
             try {
                 stream = downloadUrl(urlString);
-                streamTwo = downloadUrl(urlStringTg);
                 if(stream != null)
                     Log.d("stream", stream.toString() + "");
 
                 // XmlParser returns a List (called "entries") of Item objects.
                 // Each Entry object represents a single post in the XML feed.
-                toReturn.addAll(xmlParser.parse(stream));
-                toReturn.addAll(secondParser.parse(streamTwo));
+                entries = xmlParser.parse(stream);
                 if(entries != null)
                     Log.d("entries", "size: " + entries.size() + "");
 
                 // Makes sure that the InputStream is closed after the app is
                 // finished using it.
+            } catch (ParseException e) {
+                e.printStackTrace();
             } finally {
                 if (stream != null)
                     stream.close();
@@ -216,7 +195,7 @@ public class NewsFragment extends Fragment {
             String urldisplay = urls[0];
             Bitmap bitmap = null;
             try {
-                InputStream in = new java.net.URL(urldisplay).openStream();
+                InputStream in = new URL(urldisplay).openStream();
                 bitmap = BitmapFactory.decodeStream(in);
             } catch (Exception e) {
                 Log.e("Error", e.getMessage());
