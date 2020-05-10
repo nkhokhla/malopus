@@ -109,6 +109,115 @@ public class DetailActivity extends AppCompatActivity {
                             "Серія Геллбой є багаторазовим лауреатом премії Айзнера - найвпливовішої премії у світі коміксів та графічних романів. Комікс був двічі екранізований відомим режисером Гільєрмо дель Торо («Лабіринт Фавна», «Тихоокеанський Рубіж»), а у квітні 2019 отримує нову екранізацію від Ніла Маршалла («Гра Престолів»)." +
                             "Перший том українського колекційного видання містить першу та другу частини серії, в яких події відбуваються через майже 50 років після появи червоного демона в людському світі, коли настає для Геллбоя час вирішувати - в чому саме є його Призначення. Видання містить кілька передмов від відомих авторів коміксів, в тому числі Алана Мура («Вартові», «V значить Vендетта»), а також артбук із біля двадцяти сторінок з малюнками та ескізами Майка Міньйоли із його коментарями та післямовою." +
                             "Комікс виданий за зразком американського колекційного видання збільшеного формату (А4), з чорною обкладинкою із золотим тисненням та ексклюзивною суперобкладинкою, та містить майже 300 сторінок.");
+                    button.setOnClickListener(new View.OnClickListener() {
+                        @Override
+                        public void onClick(View view) {
+                            Intent openlinkIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://www.onthebus.com.ua/komiksy/gellboy-kolektsyne-vidannya-kniga-1/"));
+                            startActivity(openlinkIntent);
+                        }
+                    });
+                    break;
+                case 2:
+                    tx.setText("Щирий, саркастичний і безпардонно профанний ПРОПОВІДНИК висвітлює епічні мандри Преподобного Джессі Кастера, який відстежує Бога-втікача, щоб змусити Його відповісти за страждання Його творіння. У пошуках божественного одкровення Джессі зі своїми друзями прокладає праведний шлях крізь душу Америки: від попелища містечкової церкви до яскравих вогнів Нью-Йорка й лісових нетрів Луїзіани. Їм протистоїть усе зло, яке в змозі згуртувати Земля і Небо.");
+                    button.setOnClickListener(new View.OnClickListener() {
+                        @Override
+                        public void onClick(View view) {
+                            Intent openlinkIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://www.onthebus.com.ua/komiksy/propovdnik-kniga-1/"));
+                            startActivity(openlinkIntent);
+                        }
+                    });
+                    break;
+                case 3:
+                    tx.setText("Для лихого титанійця Таноса Рукавиця була Священним Граалем, найбажанішим зі здобутків. Вона дає всемогутність – повний контроль над усіма аспектами часу, простору, сили, реальності, розуму та душі. Така незборима сила означає початок чорного кошмару для всесвіту.Тепер, за крок від армагеддону, супергерої Землі на чолі з Адамом Ворлоком роблять відчайдушну спробу зупинити божевільного бога-нігіліста, перш ніж він штовхне світ на шлях галактичного самознищення. Якщо герої зазнають поразки, у бій ринуться астральні боги. Але чи зуміє хтось здобути перемогу в жахливому космічному зіткненні?");
+                    button.setOnClickListener(new View.OnClickListener() {
+                        @Override
+                        public void onClick(View view) {
+                            Intent openlinkIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://www.onthebus.com.ua/komiksy/rukavitsya-nesknchennost/"));
+                            startActivity(openlinkIntent);
+                        }
+                    });
+                    break;
+                case 4:
+                    tx.setText("Ґотем охоплений епідемією злочинності. Мов нізвідки з’явилися всі старі вороги Бетмена, щоб перетворити його життя на хаос. Проте вони — лише пішаки в хитромудрій грі, яку затіяв Цить, аби помститися Брюсу Вейну. Бетмен — у відчаї, щоб з’ясувати, хто за цим усім стоїть, йому знадобиться дещо більше, ніж детективні навички.");
+                    button.setOnClickListener(new View.OnClickListener() {
+                        @Override
+                        public void onClick(View view) {
+                            Intent openlinkIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://www.onthebus.com.ua/komiksy/flesh-tom-1-tlki-vpered-1/"));
+                            startActivity(openlinkIntent);
+                        }
+                    });
+                    break;
+                case 5:
+                    tx.setText("«Мене влаштовує те життя, що мені дісталося, дякую». Нечасто Джон Константин, найвеличніший чаклун на світі, може сказати ці слова і справді мати їх на увазі. Роками напрацьовані окультні навички, знання та метка розсудливість були здобуті важкою працею й оплачені кров’ю: і власною, і його друзів, і невинних, що встрягли в нескінченну гонку озброєння чаклунів-самоучок. Але після того, як пару разів врятував світ, Константин зіткнувся з дуже людською проблемою, що змусить його хапатися за життя з усіх сил. Йому доведеться побороти рак, попрощатися зі старим другом, врятувати королівську сім’ю від ганьби — та, можливо, між цим усім у нього таки з’явиться час сходити в паб і як слід заправитися випивкою. Але навіть там він не знайде спокою…");
+                    button.setOnClickListener(new View.OnClickListener() {
+                        @Override
+                        public void onClick(View view) {
+                            Intent openlinkIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://www.onthebus.com.ua/komiksy/hellblazer-kniga-1-toy-khto-yde-krz-peklo/"));
+                            startActivity(openlinkIntent);
+                        }
+                    });
+                    break;
+                case 6:
+                    tx.setText("ДЖОКЕР ПОМЕР. Це поза сумнівом. Та чи це Бетмену урвався терпець, чи якась інша таємнича сутність скрутила йому шию — залишається загадкою. Річ у тім, що Бетмен не може пригадати… і що глибше він занурюється у цю заплутану справу, то більше сумнівається у кожному доказі. А хто ж зможе йому допомогти краще за… Джона Константина? Щоправда, єдине, що він любить більше за добру загадку — це гратися людьми. Тож удвох із Константином Бетмен занурюється в прогнилі нутрощі Ґотема, женучись за вибуховою правдою: хто ж все-таки вбив Джокера?");
+                    button.setOnClickListener(new View.OnClickListener() {
+                        @Override
+                        public void onClick(View view) {
+                            Intent openlinkIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://www.onthebus.com.ua/komiksy/betmen-proklyatiy/"));
+                            startActivity(openlinkIntent);
+                        }
+                    });
+                    break;
+                case 7:
+                    tx.setText("Після удару блискавки та контакту з хімічними речовинами поліцейський- криміналіст Баррі Аллен з Централ-сіті перетворився на Найшвидшу Людину на Землі. Але дечого навіть йому не наздогнати.Після багаторічних пошуків помсти повертається один із найдавніших друзів Флеша. Його ні на крок не полишає невблаганна «зграя» — її чисельність зростає швидше, ніж Флеш устигає дати цьому раду.Тимчасом найзапекліший ворог Людини-блискавки замислив утечу з в’язниці суворого режиму «Айрон Гайтс». Він також хоче помститися і покінчити з Флешем із особистих мотивів, яких той поки що не бачить.А всередині самого героя зріють нові неймовірні сили. Незрозумілі та непередбачувані, вони чекають виходу та живляться тією самою Силою Швидкості, що змушує Флеша бігти. Вони можуть стати його найсильнішою зброєю… або найбільшим прокляттям.");
+                    button.setOnClickListener(new View.OnClickListener() {
+                        @Override
+                        public void onClick(View view) {
+                            Intent openlinkIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://www.onthebus.com.ua/komiksy/flesh-tom-1-tlki-vpered/"));
+                            startActivity(openlinkIntent);
+                        }
+                    });
+                    break;
+                case 8:
+                    tx.setText("«Сценарій Джеффа Джонса та малюнки Джима Лі затягують читача — і головних героїв — у вир подій із перших сторінок і не відпускають до кінця. Надзвичайно талановита команда DC створила привабливий світ для тих, хто тільки знайомиться з коміксами» — USA TODAY «Чудова книжка» — AIN’T IT COOL NEWS, П’ЯТЬ ЗІРОК «Важко отримати від іншого коміксу стільки ж задоволення, як від Ліги Справедливості» — FAST COMPANY «Події розвиваються дуже динамічно та захоплюють читача від самого початку» — YAHOO! ASSOCIATED CONTENT");
+                    button.setOnClickListener(new View.OnClickListener() {
+                        @Override
+                        public void onClick(View view) {
+                            Intent openlinkIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://www.onthebus.com.ua/komiksy/lga-spravedlivost-kniga-1-pochatok/"));
+                            startActivity(openlinkIntent);
+                        }
+                    });
+                    break;
+                case 9:
+                    tx.setText("Один із найпопулярніших і найулюбленіших серед критиків графічний роман усіх часів, відзначений нагородами шедевр Ніла Ґеймана «СЕНДМЕН» установив нові стандарти для дорослої та ліричної фантастики у галузі коміксів. Проілюстрована популярними художниками жанру, ця серія — насичений коктейль із сучасної та давньої міфології, у який майстерно вплетено сучасну літературу, історичну драму та легенди. Перша з дванадцяти книг, які складають повну серію про «СЕНДМЕНА», відкриває унікальну для графічної літератури сагу і знайомить читачів із чарівним і темним світом снів та жахіть — домом Морфея, Повелителя снів, і його роду, Безмежних.");
+                    button.setOnClickListener(new View.OnClickListener() {
+                        @Override
+                        public void onClick(View view) {
+                            Intent openlinkIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://www.onthebus.com.ua/komiksy/pesochnyy-chelovek-kniga-1-prelyudii-i-noktyurny-1/"));
+                            startActivity(openlinkIntent);
+                        }
+                    });
+                    break;
+                case 10:
+                    tx.setText("Під час подорожі Темним Лісом Ґеральту, відомому мисливцю на монстрів, трапився овдовілий рибалка. Його дружина, що повстала із мертвих та сповнена жаги помсти, оселилася у моторошній садибі, відомій за назвою Дім зі Скла. Блукаючи маєтком, Ґеральт вступає у бій із жахливими істотами та розкриває таємницю, яка може перетворити цей дім на його могилу!");
+                    button.setOnClickListener(new View.OnClickListener() {
+                        @Override
+                        public void onClick(View view) {
+                            Intent openlinkIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://www.onthebus.com.ua/komiksy/vdmak-dm-z-skla/"));
+                            startActivity(openlinkIntent);
+                        }
+                    });
+                    break;
+                case 11:
+                    tx.setText("Бетмен чув казки про ґотемський Суд Сов. Члени цієї могутньої кліки зустрічаються в тінях, використовують образ нічного хижого птаха як свою візитівку і є справжніми господарями Ґотема. Але Темний Лицар вважав ці історії чутками та бабусиними казками. Ґотем був його містом. Дотепер. Жорстокий убивця запускає свої гострі пазурі у найкращих та найнебезпечніших людей міста. Якщо темні легенди не брешуть, його господарі — хижаки, могутніші, ніж Бетмен міг собі уявити, а їхні гнізда є скрізь…");
+                    button.setOnClickListener(new View.OnClickListener() {
+                        @Override
+                        public void onClick(View view) {
+                            Intent openlinkIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://www.onthebus.com.ua/komiksy/betmen-kniga-1-sud-sov-ukr/"));
+                            startActivity(openlinkIntent);
+                        }
+                    });
+                    break;
+
             }
         } else if (type1.equals("paid")){
             switch (a){
@@ -138,6 +247,66 @@ public class DetailActivity extends AppCompatActivity {
                         @Override
                         public void onClick(View view) {
                             Intent openlinkIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("http://bookri.com.ua/product/mor"));
+                            startActivity(openlinkIntent);
+                        }
+                    });
+                    break;
+                case 3:
+                    tx.setText("Саркофаг — Збірка трьох графічних новел: «Сон», «Світ 912» і «Саркофаг». Комікси не пов’язані між собою сюжетом, їх об’єднує науково-фантастична тематика. Сон. Подорож в інші, химерні світи. Сон прийнято вважати ілюзією, тим чого не було і чого не буде. Але що як виявиться, що дивний світ зі сну — світ, де саме тобі і місце, а не та, здавалось би правильна реальність, в якій ти перебуваєш? Саме це і сталось з головним героєм Саркофаг. Зла гора. Відома як згубне місце з часів, коли перші люди поселились в тій місцевості. Тільки примарні чутки доходять про неї. Звідти ніхто не повертається. Можливо є шанс дізнатись, що там відбувається, якщо піти за посланцями богів. Але кажуть, що й боги безсилі перед тим, що ховається всередині гори.");
+                    button.setOnClickListener(new View.OnClickListener() {
+                        @Override
+                        public void onClick(View view) {
+                            Intent openlinkIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("http://bookri.com.ua/product/sarkofag"));
+                            startActivity(openlinkIntent);
+                        }
+                    });
+                    break;
+                case 4:
+                    tx.setText("Катарсис- це збірка, яка об’єднує в собі десять коротких історій, історій настільки різних, що єдиною спільною рисою є їхні автори художниця lisa cloud тa сценаристка тori. З найперших сторінок ви пройдете увесь творчий шлях, який подолали ці дівчата за довгі десять років спільної праці. Познайомитесь з багатьма характерними персонажами: від мужніх та сміливих до тендітних та вразливих. Поринете у їхне непросте, незвичне, але часом чарівне життя. Романтика містика, казка чи наукова фантастика кожен знайде собі щось до душі! Адже історій аж дев’ять і всі вони різні! В найголовнше не забудьте прихопити смаколиків перед початком читання!");
+                    button.setOnClickListener(new View.OnClickListener() {
+                        @Override
+                        public void onClick(View view) {
+                            Intent openlinkIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("http://bookri.com.ua/product/katarsys"));
+                            startActivity(openlinkIntent);
+                        }
+                    });
+                    break;
+                case 5:
+                    tx.setText("Каракас – столиця Венесуели, та, за сумісництвом, найнебезпечніше місто на світі. Війна наркокартелів та розбірки вуличних банд, викрадення людей та пограбування серед білого дня, нелегальні бої без правил, перегони зі стріляниною і темні змови високопосадовців можновладців та ще багато чого іншого. Спокійно точно не буде");
+                    button.setOnClickListener(new View.OnClickListener() {
+                        @Override
+                        public void onClick(View view) {
+                            Intent openlinkIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("http://bookri.com.ua/product/osela5-6"));
+                            startActivity(openlinkIntent);
+                        }
+                    });
+                    break;
+                case 6:
+                    tx.setText("Молодний інтерн Ейджіро Сайто проходить практику в університетській лікарні, але через низьку зарплатню та брак коштів вирішує взяти підробіток в клініці на нічній зміні. Впродовж свого шляху він стикається з реаліями японської медицини та жорстокістю системи – мізерна оплата, корупмованість, халатність та байдужість верхівки – і ставить собі питання: “Що ж означає бути справжнім лікарем?”");
+                    button.setOnClickListener(new View.OnClickListener() {
+                        @Override
+                        public void onClick(View view) {
+                            Intent openlinkIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://fireclaw.com.ua/product/black-jack-1/"));
+                            startActivity(openlinkIntent);
+                        }
+                    });
+                    break;
+                case 7:
+                    tx.setText("Молодний інтерн Ейджіро Сайто проходить практику в університетській лікарні, але через низьку зарплатню та брак коштів вирішує взяти підробіток в клініці на нічній зміні. Впродовж свого шляху він стикається з реаліями японської медицини та жорстокістю системи – мізерна оплата, корупмованість, халатність та байдужість верхівки – і ставить собі питання: “Що ж означає бути справжнім лікарем?”. У другому томі Сайто-кун буде боротись за життя Міямури-сана. Він не впевнений в кваліфікації лікарів Еіроку, тому хоче ризикнути і знайти хірурга на стороні.");
+                    button.setOnClickListener(new View.OnClickListener() {
+                        @Override
+                        public void onClick(View view) {
+                            Intent openlinkIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://fireclaw.com.ua/product/black-jack-2-1/"));
+                            startActivity(openlinkIntent);
+                        }
+                    });
+                    break;
+                case 8:
+                    tx.setText("Нуарний детектив про звичайного хлопця з маленького містечка, якого доля змусила пуститися берега. Класична історія життя сироти з маленького містечка. Він мріяв стати справжнім детективом, але реальність швидко дала зрозуміти, що не всі мрії здійснити дуже легко, особливо навколо стільки спокус..");
+                    button.setOnClickListener(new View.OnClickListener() {
+                        @Override
+                        public void onClick(View view) {
+                            Intent openlinkIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://fireclaw.com.ua/product/evtecha/"));
                             startActivity(openlinkIntent);
                         }
                     });
