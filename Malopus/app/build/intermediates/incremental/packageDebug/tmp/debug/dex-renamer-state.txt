@@ -1,4 +1,4 @@
-#Sun May 10 11:01:55 EEST 2020
+#Sat May 09 12:38:28 EEST 2020
 base.0=/home/nazar/AndroidStudioProjects/malopus/Malopus/app/build/intermediates/dex/debug/mergeExtDexDebug/out/classes.dex
 path.1=classes.dex
 renamed.1=classes2.dex
