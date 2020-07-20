@@ -1,7 +1,7 @@
 # malopys
 All comics stuff in one app.
 
-[Download apk](https://api.onedrive.com/v1.0/shares/u!aHR0cHM6Ly8xZHJ2Lm1zL3UvcyFBcDMwMVN0amRycFNreXFOd1VtbHdZa25PYjBTP2U9NmU4NGE4/root/content)
+[Download apk](https://github.com/nkhokhla/malopys/raw/master/Malopus/app/build/outputs/apk/debug/app-debug.apk)
 
 Watch promo video👇
 
